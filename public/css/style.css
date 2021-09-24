@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+.container {
+  background-color: #2d197c;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.card {
+  background-color: #fff;
+  width: 50vw;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.create {
+  display: flex;
+  justify-content: space-between;
+}
+
+.create-form {
+  width: 800px;
+  height: 40px;
+  border: 1px solid rgba(194, 194, 194, 0.945);
+  border-radius: 10px;
+  outline: none;
+}
+
+button {
+  width: 70px;
+  height: 40px;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.add-btn {
+  color: rgb(214, 105, 209);
+  border: 3px solid rgb(214, 105, 209);
+}
+
+.todolist {
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+tr {
+  height: 50px;
+}
+
+.task-name {
+  width: 300px;
+  height: 30px;
+  border: 1px solid rgba(194, 194, 194, 0.945);
+  border-radius: 5px;
+  outline: none;
+}
+
+.update-btn {
+  color: rgb(255, 198, 92);
+  border: 2px solid rgb(255, 198, 92);
+}
+
+.delete-btn {
+  color: rgb(162, 223, 71);
+  border: 2px solid rgb(162, 223, 71);
+}
